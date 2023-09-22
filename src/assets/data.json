@@ -37,5 +37,17 @@
       "url": "/",
       "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
     }
+  ],
+  "experience":[
+    {
+      "start_date":"Feb 2023",
+      "end_date":"26th Jun 2023",
+      "name":"Mobiloitte Technologies India Pvt. Ltd.",
+      "title":"Full Stack Developer Intern",
+      "Emploment_type":"Full Time",
+      "Location":"On-Site",
+      "description":"MERN stack intern with proficiency in React,Node.Solid foundation in React JS for Reusable components, state management, hooks ,routing , MUI , APIS integration and UI design. On BackEnd Side experience different npm packages, JWT tokens, REST AIPS, payment gateways through blockchain transactions and APIs creation",
+      "imgSrc":"https://drive.google.com/file/d/1jSyQJltCbAwZkN64SVzqj63ko9OBGmvk/view"
+    }
   ]
 }
