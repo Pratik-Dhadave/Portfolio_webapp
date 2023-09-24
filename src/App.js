@@ -5,6 +5,8 @@ import Work from './components/Work'
 import Timeline from './components/Timeline'
 import Services from './components/Services'
 import Testimonial from './components/Testimonial'
+import Contact from './components/Contact'
+import { Toaster } from 'react-hot-toast'
 
 
 const App = () => {
@@ -15,6 +17,9 @@ const App = () => {
   <Timeline />
   <Services />
   <Testimonial />
+  <Testimonial />
+  <Contact />
+  <Toaster />
   </>
 }
 
