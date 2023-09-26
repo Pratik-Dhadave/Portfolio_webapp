@@ -4,14 +4,14 @@ import {
     AiOutlineArrowUp,
     AiFillLinkedin,
   } from "react-icons/ai";
-import pratik from "../assets/Pratik.png"
+import pratik from "../assets/Pratik_Linkedin.png"
 const Footer = () => {
   return (
     <footer>
         <div>
             <img src={pratik} alt="Founder" />
             <h2>Pratik Dhadave</h2>
-            <p>Motivation is temporary, Discipine last forever</p>
+            <p>People don’t care about what you say, they care about what you build</p>
         </div>
         <aside>
             <h2>Social Media</h2>

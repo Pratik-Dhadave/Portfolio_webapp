@@ -2,14 +2,14 @@ import React, { useRef } from "react";
 import { animate, motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
-import me from "../assets/Pratik.png";
+import me from "../assets/pratik_bg_remover.png";
 
 const Home = ({ ratio }) => {
   const clientCount = useRef(null);
   const projectCount = useRef(null);
 
   const animationClientsCount = () => {
-    animate(0, 100, {
+    animate(100,0, {
       duration: 1,
       onUpdate: (v) => (clientCount.current.textContent = v.toFixed()),
     });
@@ -53,7 +53,7 @@ const Home = ({ ratio }) => {
 
           <Typewriter
             options={{
-              strings: ["A Developer", "A Designer", "A Creator"],
+              strings: ["A Developer", "A Coder"],
               autoStart: true,
               loop: true,
               cursor: "",
@@ -71,7 +71,7 @@ const Home = ({ ratio }) => {
           <article>
             <p>
               +
-              {ratio < 2 && (
+              {ratio < 3 && (
                 <motion.span
                   whileInView={animationClientsCount}
                   ref={clientCount}
@@ -85,7 +85,7 @@ const Home = ({ ratio }) => {
             <article>
               <p>
                 +
-                {ratio < 2 && (
+                {ratio < 3 && (
                   <motion.span
                     ref={projectCount}
                     whileInView={animationProjectsCount}
@@ -99,7 +99,7 @@ const Home = ({ ratio }) => {
 
             <article data-special>
               <p>Contact</p>
-              <span>official.6packprogrammer@gmail.com</span>
+              <span>pratik007ddd@gmail.com</span>
             </article>
           </aside>
         </div>
